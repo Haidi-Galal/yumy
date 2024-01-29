@@ -1,0 +1,74 @@
+body{
+    background-color: #0D0D0D;
+}
+.main{
+    background-color: #0D0D0D;
+}
+.img-container{
+position: relative;
+overflow: hidden;
+
+}
+.filter{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.623);
+    top: 90%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+    opacity: 0;
+   
+}
+
+.img-container:hover .filter{
+opacity: 1;
+top: 0;
+
+}
+.sidebar{
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #0D0D0D;
+    white-space: no-wrap;
+}
+.logo img{
+    /* width: 20%; */
+    width: 40px;
+}
+svg{
+    font-size: 40px;
+}
+.logo i{
+    padding: 10px;
+}
+.meals{
+    /* z-index: -1; */
+}
+li,i,svg{
+    cursor: pointer;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(255, 255, 255, 0.667);
+    opacity: 1; /* Firefox */
+  }
+
+  input{
+    color: black;
+    background-color: #0D0D0D !important;
+  }
+  .fa-house-laptop,.fa-drumstick-bite {
+    font-size: 40px;
+  }
+  .meals{
+    cursor: pointer;
+  }
+
+  .bg-lite{
+    background-color: #CFF4FC;
+    color: green;
+  }
+
